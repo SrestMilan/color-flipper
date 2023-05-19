@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: white;
+  height: 50px;
+}
+
+.project-topic2 {
+  color: black;
+  font-size: 25px;
+  margin-left: 500px;
+  font-weight: 200;
+}
+
+.project-topic1 {
+  color: blue;
+  margin-left: 400px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.box {
+  background-color: black;
+  height: 60px;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 250px;
+  border-radius: 10px;
+}
+
+.color-information,
+color-topic {
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+}
+
+.click-me {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border-radius: 10px;
+  margin-left: 650px;
+  margin-top: 30px;
+  font-size: 15px;
+  letter-spacing: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.click-me:hover {
+  color: white;
+  background-color: black;
+}
